@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/azure2solndbserver/databases/Azure2soln_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:Azure2solnContext",
+      "dynamicId": null
+    }
+  }
+}
